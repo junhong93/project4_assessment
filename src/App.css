@@ -1,0 +1,29 @@
+body, * {
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.App main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
